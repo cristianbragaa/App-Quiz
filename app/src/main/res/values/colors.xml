@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Cores customizadas -->
+    <color name="cinza_claro">#E4E4E4</color>
+    <color name="branco">#FFFFFF</color>
+    <color name="preto">#000000</color>
+
+    <color name="primaria">#00296b</color>
+    <color name="primaria_variacao">#003f88</color>
+    <color name="secundaria">#00509d</color>
+    <color name="secundaria_variacao">#1D78D1</color>
+
+</resources>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activitys.PerguntasActivity">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@color/branco"
+        android:orientation="vertical"
+        android:padding="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <TextView
+            android:id="@+id/textNome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Olá, aluno" />
+
+        <TextView
+            android:id="@+id/textNumeroPergunta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="@color/secundaria_variacao"
+            android:padding="16dp"
+            android:text="1 pergunta de 4"
+            android:textAlignment="center"
+            android:textColor="@color/branco" />
+
+        <TextView
+            android:id="@+id/textTituloPergunta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/cinza_claro"
+            android:padding="16dp"
+            android:text="Essa é a pergunta 01"
+            android:textAlignment="center" />
+
+        <RadioGroup
+            android:id="@+id/radioGroupRespostas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/radioResposta1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Resposta 01" />
+
+            <RadioButton
+                android:id="@+id/radioResposta2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Resposta 02" />
+
+            <RadioButton
+                android:id="@+id/radioResposta3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Resposta 03" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btnConfirmar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="confirmar resposta" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
